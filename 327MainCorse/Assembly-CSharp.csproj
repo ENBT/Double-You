@@ -46,7 +46,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraManagers.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Inputs.cs" />
+     <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Menu\Menu.cs" />
+     <Compile Include="Assets\Scripts\Menu\Pause.cs" />
+     <Compile Include="Assets\Scripts\Menu\Timer.cs" />
      <Compile Include="Assets\Scripts\Objects\BlockSpawner.cs" />
      <Compile Include="Assets\Scripts\Objects\Box.cs" />
      <Compile Include="Assets\Scripts\Objects\Button.cs" />
@@ -99,16 +104,16 @@
  <HintPath>D:/Programs/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>D:/Stuff for classes/Fall 2016/CMP 327/327MainCorse/Assets/DOTween_1_1_340/DOTween/DOTween.dll</HintPath>
+ <HintPath>D:/Documents/GitHub/Double-You/327MainCorse/Assets/DOTween_1_1_340/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
- <HintPath>D:/Stuff for classes/Fall 2016/CMP 327/327MainCorse/Assets/DOTween_1_1_340/DOTween/DOTween43.dll</HintPath>
+ <HintPath>D:/Documents/GitHub/Double-You/327MainCorse/Assets/DOTween_1_1_340/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>D:/Stuff for classes/Fall 2016/CMP 327/327MainCorse/Assets/DOTween_1_1_340/DOTween/DOTween46.dll</HintPath>
+ <HintPath>D:/Documents/GitHub/Double-You/327MainCorse/Assets/DOTween_1_1_340/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>D:/Stuff for classes/Fall 2016/CMP 327/327MainCorse/Assets/DOTween_1_1_340/DOTween/DOTween50.dll</HintPath>
+ <HintPath>D:/Documents/GitHub/Double-You/327MainCorse/Assets/DOTween_1_1_340/DOTween/DOTween50.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
